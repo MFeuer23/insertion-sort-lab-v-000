@@ -7,11 +7,13 @@ function findMinAndRemove(array){
       if (array[i] < min) {
         min = array[i]
         index = i
-        array.splice(i, 1)
+        
       } 
-      return min
+      
     }
-  
+  array.splice(i, 1)
+  console.log(array)
+  return min
 }
 
 function insertionSort(array){
