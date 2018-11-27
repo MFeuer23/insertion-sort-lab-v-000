@@ -12,7 +12,6 @@ function findMinAndRemove(array){
       
     }
   array.splice(index, 1)
-  console.log(array)
   return min
 }
 
